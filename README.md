@@ -4,7 +4,7 @@
 
 A practical workflow library for auditable research, with focused agent skills, reusable playbooks, and a clean project starter.
 
-本仓库将 SCM 项目中反复出现的流程经验提炼为通用工作指南。适用于队列研究、病例对照研究、蛋白组、代谢组、遗传证据、科研图表和论文修订。分析方法由当前研究问题、数据和估计目标决定；模板中的科学参数均保持未定义。
+本仓库将多种基于UKB多组学分析项目中反复出现的流程经验提炼为通用工作指南。适用于队列研究、病例对照研究、蛋白组、代谢组、遗传证据、科研图表和论文修订。分析方法由当前研究问题、数据和估计目标决定；模板中的科学参数均保持未定义。
 
 ## 从这里开始
 
