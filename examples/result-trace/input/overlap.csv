@@ -1,0 +1,5 @@
+feature,mode,direction,strict_pass
+P1,mode_A,positive,TRUE
+P2,mode_A,positive,TRUE
+P3,mode_A,positive,TRUE
+P4,mode_A,inverse,TRUE

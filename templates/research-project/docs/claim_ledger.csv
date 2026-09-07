@@ -1,0 +1,1 @@
+claim_id,claim_location,claim_text,result_id,source_file,source_locator,source_sha256,result_version,population,model_id,exposure,outcome,effect_type,unit,reference,estimate,ci_lower,ci_upper,p_raw,p_adjusted,multiplicity_family,verification_status,limitation

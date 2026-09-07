@@ -1,0 +1,6 @@
+result_id,version,population,model_id,exposure,outcome,effect_type,unit,reference,estimate,ci_lower,ci_upper,p_raw,p_adjusted,multiplicity_family,n,events,status
+A1,v1,cohort_A,logistic_full,protein_P1,event_A,OR,per_SD,lower_feature,1.203,1.100,1.316,0.004,0.120,all_100_markers,1200,90,ok
+A2,v1,cohort_A,cox_main,exposure_B,incident_B,HR,carrier_vs_noncarrier,noncarrier,1.1514,1.066,1.244,0.0003,0.0018,primary_6,4800,210,ok
+A3,v1,EUR,mr_subtype,subtype_C,incident_B,OR,per_log_odds,noncarrier,,,,,,,0,0,not_estimable_no_instruments
+A4,v1,cohort_A,logistic_without_age_sex,index_D,event_A,OR,per_SD,lower_feature,1.42,1.20,1.69,0.002,0.008,index_family_4,1200,90,ok
+A5,v1,EUR,mr_linear_exposure,trait_E,incident_B,OR,per_unit_raw_exposure_beta,lower_trait,0.960,0.850,1.080,0.49,0.60,secondary_5,40000,2300,ok

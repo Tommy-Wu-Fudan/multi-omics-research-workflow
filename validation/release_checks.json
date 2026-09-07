@@ -1,0 +1,88 @@
+{
+  "checked_at_utc": "2026-09-07T13:19:33.766727+00:00",
+  "version": "0.1.0",
+  "platform": "Windows",
+  "python_version": "3.12.14",
+  "installation_tests": {
+    "passed": true,
+    "test_count": 4,
+    "command": "python -m unittest discover -s tests -p \"test_*.py\"",
+    "summary": "Exact bytes and CLI output for both skills; refuses overwrite, invalid skill and omitted destination."
+  },
+  "official_skill_validator": "not_run: PyYAML unavailable; standard-library frontmatter subset check is reported separately",
+  "corrected_packaging_issues": [
+    "HTTPS link false positive in path scanner",
+    "Windows subprocess output decoding; added JSON output assertion"
+  ],
+  "scope": "Public documentation and packaging checks; no research analysis or fresh skill behavior rerun.",
+  "structure": {
+    "passed": true,
+    "check_count": 12,
+    "checks": [
+      {
+        "check": "required_entrypoints",
+        "passed": true,
+        "detail": null
+      },
+      {
+        "check": "local_links_resolve_inside_repository",
+        "passed": true,
+        "detail": []
+      },
+      {
+        "check": "tested_skill_files_match_exact_fingerprints",
+        "passed": true,
+        "detail": null
+      },
+      {
+        "check": "exactly_two_focused_skills",
+        "passed": true,
+        "detail": null
+      },
+      {
+        "check": "simple_frontmatter:research-result-trace",
+        "passed": true,
+        "detail": null
+      },
+      {
+        "check": "simple_frontmatter:research-display-revision",
+        "passed": true,
+        "detail": null
+      },
+      {
+        "check": "template_has_no_scientific_defaults",
+        "passed": true,
+        "detail": null
+      },
+      {
+        "check": "template_is_draft",
+        "passed": true,
+        "detail": null
+      },
+      {
+        "check": "no_obvious_machine_paths_private_evidence_ids_or_tokens",
+        "passed": true,
+        "detail": []
+      },
+      {
+        "check": "distribution_contains_only_expected_text_formats",
+        "passed": true,
+        "detail": []
+      },
+      {
+        "check": "six_playbooks_present",
+        "passed": true,
+        "detail": null
+      },
+      {
+        "check": "example_is_marked_synthetic",
+        "passed": true,
+        "detail": null
+      }
+    ]
+  },
+  "passed": true,
+  "structure_rechecked_at_utc": "2026-09-07T14:16:01.385914+00:00",
+  "publication_name": "multi-omics-research-workflow",
+  "renaming_scope": "README title and repository links only; skill content and installation code unchanged."
+}
